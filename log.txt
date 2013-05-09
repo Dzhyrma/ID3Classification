@@ -1,0 +1,108 @@
+Go deeper.
+Entropy of the current node is 0.6730116670092565
+Branch this node.
+Check the attribute: 'IsEvil'.
+Infogain of this attribute is: 0.013844293808390695
+The best attribute now is 'IsEvil'.
+Check the attribute: 'Age'.
+Infogain of this attribute is: 0.27065218890073145
+The best attribute now is 'Age'.
+Check the attribute: 'Smiles'.
+Infogain of this attribute is: 0.20479854429683453
+Check the attribute: 'IsStudent'.
+Infogain of this attribute is: 0.0033639818946950006
+Check the path with the attribute 'Age' and its value 'MiddleAged'.
+Go deeper.
+Entropy of the current node is 0.5004024235381879
+Branch this node.
+Check the attribute: 'IsEvil'.
+Infogain of this attribute is: 0.050534307843141224
+The best attribute now is 'IsEvil'.
+Check the attribute: 'Smiles'.
+Infogain of this attribute is: 0.5004024235381879
+The best attribute now is 'Smiles'.
+Check the attribute: 'IsStudent'.
+Infogain of this attribute is: 0.050534307843141224
+Check the path with the attribute 'Smiles' and its value 'Sometimes'.
+Go deeper.
+Entropy of the current node is 0.0
+Do not need to branch this node.
+Go back to the parent node.
+Check the path with the attribute 'Smiles' and its value 'Never'.
+Go deeper.
+Entropy of the current node is 0.0
+Do not need to branch this node.
+Go back to the parent node.
+Check the path with the attribute 'Smiles' and its value 'Always'.
+Go deeper.
+Entropy of the current node is 0.0
+Do not need to branch this node.
+Go back to the parent node.
+Go back to the parent node.
+Check the path with the attribute 'Age' and its value 'Child'.
+Go deeper.
+Entropy of the current node is 0.0
+Do not need to branch this node.
+Go back to the parent node.
+Check the path with the attribute 'Age' and its value 'Twenties'.
+Go deeper.
+Entropy of the current node is 0.6931471805599453
+Branch this node.
+Check the attribute: 'IsEvil'.
+Infogain of this attribute is: 0.130812035941137
+The best attribute now is 'IsEvil'.
+Check the attribute: 'Smiles'.
+Infogain of this attribute is: 0.4544543674493905
+The best attribute now is 'Smiles'.
+Check the attribute: 'IsStudent'.
+Infogain of this attribute is: 0.09560258894703255
+Check the path with the attribute 'Smiles' and its value 'Sometimes'.
+Go deeper.
+Entropy of the current node is 0.6365141682948128
+Branch this node.
+Check the attribute: 'IsEvil'.
+Infogain of this attribute is: 0.6365141682948128
+The best attribute now is 'IsEvil'.
+Check the attribute: 'IsStudent'.
+Infogain of this attribute is: 0.0
+Check the path with the attribute 'IsEvil' and its value 'Yes'.
+Go deeper.
+Entropy of the current node is 0.0
+Do not need to branch this node.
+Go back to the parent node.
+Check the path with the attribute 'IsEvil' and its value 'No'.
+Go deeper.
+Entropy of the current node is 0.0
+Do not need to branch this node.
+Go back to the parent node.
+Go back to the parent node.
+Check the path with the attribute 'Smiles' and its value 'Never'.
+Go deeper.
+Entropy of the current node is 0.0
+Do not need to branch this node.
+Go back to the parent node.
+Check the path with the attribute 'Smiles' and its value 'Always'.
+Go deeper.
+Entropy of the current node is 0.0
+Do not need to branch this node.
+Go back to the parent node.
+Go back to the parent node.
+Go back to the parent node.
+
+The ID3 tree:
+
+Age = MiddleAged
+|  Smiles = Sometimes: No
+|  Smiles = Never: No
+|  Smiles = Always: Yes
+Age = Child: Yes
+Age = Twenties
+|  Smiles = Sometimes
+|  |  IsEvil = Yes: No
+|  |  IsEvil = No: Yes
+|  Smiles = Never: No
+|  Smiles = Always: Yes
+
+Predictions:
+[values=[Twenties, Yes, Always, Yes, Yes]]
+[values=[Twenties, Yes, Sometimes, Yes, No]]
